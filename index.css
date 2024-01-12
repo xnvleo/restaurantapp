@@ -2,23 +2,15 @@ body {
   position: relative;
   margin: 0;
   font-family: "Smythe", "Inter", "Verdana", sans-serif;
-  /* min-width: 400px; */
 
 }
-
-/* @media only screen and (max-width: 600px)  {
-
-  .container {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
-} */
 
 h1 {
   font-size: 2.5em;
   line-height: 24px;
   color: #fff;
 }
+
 
 h3 {
   color: #fff;
@@ -29,7 +21,7 @@ header {
   background-color: goldenrod;
   background: url(/headerimg.jpeg);
   background-size: cover;
-  background-position: center top 50%;
+  background-position: center top 80%;
   display: flex;
 }
 
@@ -43,8 +35,9 @@ header {
 
 .menu-list {
   display: flex;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  align-items: center;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
   border-bottom: 1px solid lightgrey;
 }
 
@@ -60,7 +53,7 @@ header {
 
 .food--name {
   font-size: 1.75em;
-  margin-top: 0.2em;
+  margin-bottom: 0px;
 }
 
 .food--desc {
