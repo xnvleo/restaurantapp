@@ -2,7 +2,17 @@ body {
   position: relative;
   margin: 0;
   font-family: "Smythe", "Inter", "Verdana", sans-serif;
+  /* min-width: 400px; */
+
 }
+
+/* @media only screen and (max-width: 600px)  {
+
+  .container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+} */
 
 h1 {
   font-size: 2.5em;
@@ -29,12 +39,7 @@ header {
   margin:auto 2rem auto 2rem;
 }
 
-@media screen and (max-width: 767px) {
-  .container {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-}
+
 
 .menu-list {
   display: flex;
@@ -133,8 +138,9 @@ header {
 .submitBtn {
   width: 100%;
   margin-top: 1rem;
-  padding: 18px 175px 18px 194px;
-  align-items: center;
+  padding-top:14px;
+  padding-bottom: 14px;
+  /* align-items: center; */
   border-radius: 3.8px;
   background: #16db99;
   border: none;
@@ -147,6 +153,7 @@ form {
   display: none;
   flex-direction: column;
   position: absolute;
+  width: 70%;
   background: white;
   top: 50%;
   left: 50%;
