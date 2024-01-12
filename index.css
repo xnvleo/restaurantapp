@@ -7,15 +7,16 @@ body {
 
 h1 {
   font-size: 2.5em;
-  line-height: 24px;
   color: #fff;
+  margin-bottom: 0.5rem;
 }
 
 
 h3 {
   color: #fff;
   font-size: 1.4rem;
-  line-height: 13.798px;
+  margin-top: 0;
+
 }
 header {
   background-color: goldenrod;
@@ -23,6 +24,8 @@ header {
   background-size: cover;
   background-position: center top 80%;
   display: flex;
+  padding-top:1rem;
+  padding-bottom: 1rem;
 }
 
 .container {
@@ -53,15 +56,21 @@ header {
 
 .food--name {
   font-size: 1.75em;
-  margin-bottom: 0px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+
 }
 
 .food--desc {
   color: #8b8b8b;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
 }
 
 .food--price {
   font-size: 1.25em;
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
 }
 
 .addBtn {
