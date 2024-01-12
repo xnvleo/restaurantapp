@@ -17,8 +17,8 @@ const menuHtml = menuArray
             <p class="food--desc">${item.ingredients}</p>
             <p class="food--price">$${item.price}</p>
         </div>
-        <div class="addBtn">
-            <div class="plus-icon" data-add=${item.id}>+</div>
+        <div class="addBtn" data-add=${item.id}>
+            <div class="plus-icon">+</div>
         </div>
     </div>
     `;
