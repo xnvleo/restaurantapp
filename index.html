@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container" aria-label='a background picture of a burger'>
+        <h1>Jimmy’s Diner</h1>
+        <h3>The best burgers and pizzas in town.</h3>
+      </div>
+    </header>
+    <main class="container">
+      <section class="menu" id="menu"></section>
+      <section class="orders" id="orders">
+        <div class="orderTitle">Your order</div>
+        <div class="orderedItems" id="ordered-items"></div>
+        <div class="totalPrice" id="total-price"></div>
+        <button class="submitBtn" id="submit-btn" data-complete="submit-btn">
+          Complete order
+        </button>
+      </section>
+      <section class="successMsg" id="success-msg">
+        <h2>Thanks, James! Your order is on its way!</h2>
+      </section>
+    </main>
+    <form>
+      <div>Enter card details</div>
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter your name"
+        minlength="2"
+        maxlength="10"
+        pattern="[a-zA-Z0-9]+"
+      />
+      <input type="text" placeholder="Enter card number" required />
+      <input type="text" placeholder="Enter CVV" pattern="\d{3}" required />
+      <button class="submitBtn" id="pay-btn" data-pay="pay-btn">Pay</button>
+    </form>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
