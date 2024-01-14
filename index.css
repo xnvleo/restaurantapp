@@ -6,9 +6,9 @@ body {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   color: #fff;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5em;
 }
 
 
@@ -23,15 +23,14 @@ header {
   background: url(/headerimg.jpeg);
   background-size: cover;
   background-position: center top 80%;
-  display: flex;
-  padding-top:1rem;
-  padding-bottom: 1rem;
+  padding-top:1em;
+  padding-bottom: 1em;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  margin:auto 2rem auto 2rem;
+  width: 90%;
+margin:auto;
+  max-width: 800px;
 }
 
 
@@ -39,53 +38,53 @@ header {
 .menu-list {
   display: flex;
   align-items: center;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   border-bottom: 1px solid lightgrey;
 }
 
 .food-icon {
   align-self: center;
   justify-self: center;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
 }
 .food-text {
-  margin-left: 2rem;
+  margin-left: 2em;
   margin-right: auto;
 }
 
 .food--name {
-  font-size: 1.75em;
-  margin-top: 0.5rem;
-  margin-bottom: 0.4rem;
+  font-size: 1.75rem;
+  margin-top: 0.5em;
+  margin-bottom: 0.4em;
 
 }
 
 .food--desc {
   color: #8b8b8b;
-  margin-top: 0.4rem;
-  margin-bottom: 0.4rem;
+  margin-top: 0.4em;
+  margin-bottom: 0.em;
 }
 
 .food--price {
-  font-size: 1.25em;
-  margin-top: 0.4rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  margin-top: 0.4em;
+  margin-bottom: 0.5em;
 }
 
 .addBtn {
-  margin-top: 0.5rem;
+  margin-top: 0.5em;
   position: relative;
   border-radius: 50%;
   border: 1px lightgray solid;
-  width: 50px;
-  height: 50px;
+  width: 3.1em;
+  height: 3.1em;
 }
 .plus-icon {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-family: "Inter";
   font-weight: lighter;
   transform: translate(-50%, -50%);
@@ -94,8 +93,8 @@ header {
 
 .orderTitle {
   text-align: center;
-  font-size: 1.75em;
-  margin-top: 1.5rem;
+  font-size: 1.75rem;
+  margin-top: 1.5em;
 }
 
 .orderedItems {
@@ -105,43 +104,43 @@ header {
 .container .selected {
   display: flex;
   flex-direction: row;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.5em;
 }
 
 .selectedFoodName {
-  font-size: 1.75em;
+  font-size: 1.75rem;
 }
 
 .selectedFoodPrice {
-  font-size: 1.25em;
+  font-size: 1.25rem;
   margin-left: auto;
 }
 
 .removeBtn {
-  font-size: 0.7em;
+  font-size: 0.8rem;
   color: #bbb;
-  font-family: "Inter", sans-serif;
+  font-family: "Verdana", sans-serif;
 }
 
 .totalPrice {
   display: flex;
-  margin-top: 1rem;
-  font-size: 1.5em;
+  margin-top: 1em;
+  font-size: 1.5rem;
   align-items: center;
 }
 .total {
   margin-left: auto;
-  font-size: 0.7em;
+  font-size: 1.5rem;
 }
 
 .submitBtn {
   width: 100%;
-  margin-top: 1rem;
-  padding-top:14px;
-  padding-bottom: 14px;
+  margin-top: 1em;
+  padding-top:0.8em;
+  padding-bottom: 0.8em;
   /* align-items: center; */
   border-radius: 3.8px;
   background: #16db99;
@@ -156,13 +155,15 @@ form {
   flex-direction: column;
   position: absolute;
   width: 70%;
+  max-width: 600px;
+
   background: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  gap: 1rem;
+  gap: 1em;
   box-shadow: 0 30px 50px 30px rgba(0, 0, 0, 0.2);
-  padding: 2rem;
+  padding: 2em;
   border-radius: 3.8px;
 }
 
@@ -173,7 +174,7 @@ form.show {
 input {
   border-radius: 3.8px;
   border: solid 1px #757575;
-  padding: 1rem;
+  padding: 1em;
 }
 
 form > div {
@@ -181,9 +182,9 @@ form > div {
   margin-right: auto;
   color: #000;
   font-family: "Verdana";
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 700;
-  line-height: 31.119px;
+  line-height: 2em;
 }
 
 .orders {
@@ -192,11 +193,11 @@ form > div {
 
 .successMsg {
   display: none;
-  margin-top: 1rem;
+  margin-top: 1em;
   text-align: center;
   padding: 1em;
   color: #065f46;
-  font-size: 1.8em;
+  font-size: 1.8rem;
   border-radius: 3.8px;
   background: #ecfdf5;
 }
