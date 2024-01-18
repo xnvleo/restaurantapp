@@ -17,7 +17,7 @@ const menuHtml = menuArray
             <p class="food--desc">${item.ingredients}</p>
             <p class="food--price">$${item.price}</p>
         </div>
-        <div class="addBtn"  data-add=${item.id}>
+        <div class="addBtn" data-add=${item.id}>
             <div class="plus-icon" data-add=${item.id}>+</div>
         </div>
     </div>
@@ -43,7 +43,7 @@ document.addEventListener("click", function (e) {
   }
 });
 
-// function for add and remove
+// add menu items
 function addToCart(add) {
   let orderHtml = orderList
     .map((item, index) => {
@@ -74,6 +74,8 @@ function addToCart(add) {
     : (orderSection.style.display = "none");
 }
 
+// remove menu items
+
 function removeCart(index) {
   orderList.splice(index, 1);
 
@@ -91,9 +93,8 @@ function toggleForm() {
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   greeting.style.display = "block";
-  let customerName = nameInput.value;
+  const customerName = nameInput.value;
   greeting.textContent = `Thanks ${customerName}! Your order is on its way!`;
-
   orderSection.style.display = "none";
   toggleForm();
 });

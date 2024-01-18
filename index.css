@@ -2,7 +2,6 @@ body {
   position: relative;
   margin: 0;
   font-family: "Smythe", "Inter", "Verdana", sans-serif;
-
 }
 
 h1 {
@@ -11,35 +10,30 @@ h1 {
   margin-bottom: 0.5em;
 }
 
-
 h3 {
   color: #fff;
   font-size: 1.4rem;
   margin-top: 0;
-
 }
 header {
   background-color: goldenrod;
   background: url(/headerimg.jpeg);
   background-size: cover;
   background-position: center top 80%;
-  padding-top:1em;
+  padding-top: 1em;
   padding-bottom: 1em;
 }
 
 .container {
   width: 90%;
-margin:auto;
+  margin: auto;
   max-width: 800px;
 }
-
-
 
 .menu-list {
   display: flex;
   align-items: center;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
+  padding:0.2em 0;
   border-bottom: 1px solid lightgrey;
 }
 
@@ -57,13 +51,12 @@ margin:auto;
   font-size: 1.75rem;
   margin-top: 0.5em;
   margin-bottom: 0.4em;
-
 }
 
 .food--desc {
   color: #8b8b8b;
   margin-top: 0.4em;
-  margin-bottom: 0.em;
+  margin-bottom: 0;
 }
 
 .food--price {
@@ -73,8 +66,8 @@ margin:auto;
 }
 
 .addBtn {
-  margin-top: 0.5em;
   position: relative;
+  margin-top: 0.5em;
   border-radius: 50%;
   border: 1px lightgray solid;
   width: 3.1em;
@@ -139,9 +132,7 @@ margin:auto;
 .submitBtn {
   width: 100%;
   margin-top: 1em;
-  padding-top:0.8em;
-  padding-bottom: 0.8em;
-  /* align-items: center; */
+  padding:0.8em 0;
   border-radius: 3.8px;
   background: #16db99;
   border: none;
